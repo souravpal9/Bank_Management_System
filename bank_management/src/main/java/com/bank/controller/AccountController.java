@@ -5,6 +5,7 @@ import com.bank.model.Account;
 import com.bank.model.repository.service.AccountService;
 import java.util.List;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/account")
 public class AccountController {
